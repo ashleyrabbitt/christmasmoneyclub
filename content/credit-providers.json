@@ -1,0 +1,30 @@
+[
+  {
+    "name": "CreditNinja",
+    "kind": "Personal installment loans",
+    "purpose": "Online personal loans for eligible borrowers, including people with limited or damaged credit. Approved funds are borrowed money that must be repaid with interest and any applicable fees.",
+    "check": "Compare the offered APR, fees, total repayment, and payment dates with your budget and other lenders. Approval, loan terms, availability, and funding time depend on your application and state. Having no minimum score to apply does not guarantee approval.",
+    "url": "https://www.creditninja.com/personal-loans/"
+  },
+  {
+    "name": "Indigo Mastercard",
+    "kind": "Unsecured credit card",
+    "purpose": "A credit card issued by Celtic Bank for eligible applicants who want to establish or rebuild credit. Account history is reported to the three major credit bureaus. Purchases create a balance that you must repay.",
+    "check": "Read the terms for your specific offer, including the APR, annual fee, any monthly fees, and cash advance costs. Fees charged at opening can reduce your available credit. Approval is not guaranteed, and applying may involve a credit inquiry.",
+    "url": "https://indigocard.com/faq"
+  },
+  {
+    "name": "Kikoff Credit Account",
+    "kind": "Credit-building subscription",
+    "purpose": "A credit account used to finance Kikoff's own monthly plan and report payment history. Its credit limit cannot be spent outside Kikoff, so it does not supply money for gifts, bills, or groceries.",
+    "check": "Review the subscription cost, plan features, payment obligations, and cancellation terms. The Credit Service plan does not return your payments as savings when it ends. Credit improvement is not guaranteed; late or missed payments can hurt your credit.",
+    "url": "https://kikoff.com/credit-account"
+  },
+  {
+    "name": "Credible",
+    "kind": "Loan comparison marketplace",
+    "purpose": "A free service for comparing personal loan options from participating lenders. Credible is not the lender, and its marketplace does not include every lender. Any loan is subject to the chosen lender's approval and agreement.",
+    "check": "Prequalified rates are estimates, not loan approvals. Compare final APRs, fees, total repayment, and loan terms. Continuing with a lender can involve a hard credit inquiry. Confirm whether an alternative referral offers a loan or a different service, such as debt relief.",
+    "url": "https://www.credible.com/personal-loan"
+  }
+]

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.openai/
+.env
+.env.*
+!.env.example
+*.tar.gz
+.DS_Store
+npm-debug.log*

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Wayfair",
+    "kind": "Home retailer",
+    "purpose": "Furniture, home goods, decorations, and other retail purchases. Shopping at Wayfair does not provide Christmas cash; any checkout financing is a separate credit arrangement.",
+    "check": "Compare the full delivered price, delivery timing, and return conditions. If you choose financing, review that provider’s approval requirements, interest, fees, and repayment schedule before buying.",
+    "url": "https://www.wayfair.com/"
+  },
+  {
+    "name": "Klarna",
+    "kind": "Purchase payment plans",
+    "purpose": "Payment options that can spread eligible shopping purchases over time. A purchase payment plan pays for shopping; it is not general-purpose Christmas cash.",
+    "check": "Available plans and approval vary. Review the amount due now, interest and any fees, every payment date, credit-reporting terms, and how returns affect your balance. Do not assume every plan is interest-free.",
+    "url": "https://www.klarna.com/us/"
+  },
+  {
+    "name": "Affirm",
+    "kind": "Purchase financing",
+    "purpose": "Financing for eligible goods and services, with payment options depending on the purchase and merchant. These purchase plans are not a source of general-purpose cash.",
+    "check": "Approval and available terms vary. Compare the total repayment amount, any interest, payment dates, and credit-reporting terms. A down payment may be required; an interest-free option is not available for every purchase or applicant.",
+    "url": "https://www.affirm.com/how-it-works"
+  },
+  {
+    "name": "Cherry",
+    "kind": "Financing at participating practices",
+    "purpose": "Payment plans for eligible treatments and services at participating healthcare and other practices. Approved funds pay the participating provider; they are not general Christmas cash or an ordinary retail shopping loan.",
+    "check": "Confirm that the practice accepts Cherry and that your treatment qualifies. Review approval requirements, the down payment, interest, any fees, and the full payment schedule. Promotional terms depend on eligibility and the agreement.",
+    "url": "https://withcherry.com/consumers"
+  }
+]

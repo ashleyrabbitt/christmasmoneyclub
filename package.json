@@ -1,0 +1,13 @@
+{
+  "name": "christmas-money-club",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node server.mjs",
+    "check": "node check.mjs",
+    "check:server": "node check-server.mjs"
+  }
+}
