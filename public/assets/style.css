@@ -5,3 +5,445 @@
 @media(max-width:760px){.wrap{padding:0 21px}.header-inner{height:78px;flex-wrap:wrap;position:relative}.brand-name{font-size:21px}.brand-icon{width:29px}.brand{min-width:0}.menu-toggle{display:block}.nav{display:none;position:absolute;top:77px;left:0;right:0;background:var(--cream);padding:22px;box-shadow:0 12px 20px #26382f14;flex-direction:column;align-items:stretch;gap:17px;border-bottom:1px solid var(--line)}.nav.open{display:flex}.hero{grid-template-columns:1fr;gap:35px;padding-top:37px;padding-bottom:35px}.hero h1{font-size:57px;letter-spacing:-2.5px;max-width:500px}.hero .lead{font-size:17px}.hero-photo{padding:0 0 14px 12px}.hero-photo>img{aspect-ratio:1.3;border-radius:90px 90px 18px 18px}.image-note{left:0;bottom:0;padding:13px 19px}.image-note strong{font-size:20px}.hero-meta{margin-top:20px;gap:12px;font-size:10px}.intro-strip{gap:12px;flex-direction:column;padding:20px}.section{padding-top:46px;padding-bottom:46px}.section-heading{flex-direction:column;align-items:start;gap:15px}.path-grid{grid-template-columns:1fr;gap:13px}.path{min-height:0;padding:25px}.path .number{margin-bottom:18px}.path p{max-width:none}.path h3{max-width:none}.path .arrow{position:absolute;right:25px;top:21px}.planner-teaser{grid-template-columns:1fr;padding:28px;gap:25px}.mini-plan{transform:rotate(1deg)}.grid-articles{grid-template-columns:1fr;gap:33px}.article-card h3{font-size:29px}.card-art{height:190px}.split-feature,.credit-band{grid-template-columns:1fr;gap:25px}.credit-band{padding:28px}.credit-points{border-left:0;border-top:1px solid #d2b9b5;padding:15px 0 0}.footer-main{flex-direction:column}.footer-links{gap:14px}.page-intro{padding-top:35px;padding-bottom:28px}.page-intro h1{letter-spacing:-1.7px}.article-header{padding-top:30px}.article-header h1{font-size:43px;letter-spacing:-1.6px}.article-layout{grid-template-columns:1fr;gap:22px}.article-sidebar{position:static;order:-1}.article-sidebar h3,.article-sidebar .toc{display:none}.article-sidebar .btn{margin:0;max-width:250px}.article-body{font-size:16px}.article-body h2{font-size:29px}.planner-layout{grid-template-columns:1fr}.form-panel{padding:24px}.result-panel{position:static;padding:28px}.resource-grid{grid-template-columns:1fr}.search-box{flex-direction:column;align-items:start;gap:7px}.closing h2{font-size:36px}.form-grid{gap:18px 12px}.field label{font-size:12px}.result-panel .result-amount{font-size:61px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 @media print{.site-header,.topline,.footer,.closing,.menu-toggle,.button-row,.article-sidebar{display:none}.planner-layout{display:block}.form-panel,.result-panel{break-inside:avoid;position:static;color:#111;background:white;border:1px solid #aaa;margin-bottom:20px}.result-panel .small-note,.result-panel dt,.result-panel .result-caption,.result-panel .eyebrow{color:#333}.result-panel dl div{border-color:#aaa}body{background:white;color:#111}.wrap{max-width:100%;padding:0}.page-intro{padding:0}.result-panel .result-amount{font-size:40px}}
+
+/* Christmas Money Club — cozy Christmas edition */
+:root {
+  --cream: #fbf7ed;
+  --paper: #fffdf7;
+  --ink: #203e32;
+  --green: #174b37;
+  --muted: #5f6b60;
+  --wine: #a5323f;
+  --rose: #f5e4df;
+  --sage: #e8eee0;
+  --line: #dedfce;
+  --gold: #b58542;
+  --radius: 24px;
+}
+body { background-color: var(--cream); }
+::selection { background: #eedbc1; color: #173d2d; }
+.btn { min-height: 48px; box-shadow: 0 3px 0 #103a2610; }
+.btn.wine { box-shadow: 0 3px 0 #6d132610; }
+.btn.outline { box-shadow: none; }
+.eyebrow { color: #9e303b; font-size: 11px; letter-spacing: 1.8px; }
+.topline.holiday-topline {
+  background: #103f2c;
+  color: #fff7e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  padding: 10px 24px;
+  font-size: 11px;
+  letter-spacing: .4px;
+}
+.holiday-topline p { margin: 0; }
+.holiday-topline a { color: #fff6dc; }
+.countdown-small { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.countdown-small [data-christmas-days] { font-weight: 800; font-variant-numeric: tabular-nums; color: #f4d48e; }
+.snow-toggle {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  background: transparent; color: #fff7e5; border: 1px solid #ffffff40;
+  padding: 4px 10px; font-size: 11px; line-height: 1.55; border-radius: 20px;
+  min-height: 30px;
+}
+.snow-toggle:hover, .snow-toggle[aria-pressed="true"] { background: #ffffff18; color: white; border-color: #efce85; }
+.holiday-lights {
+  display: flex; align-items: start; justify-content: space-around;
+  position: absolute; left: 0; right: 0; top: 0; height: 22px;
+  border-top: 1px solid #143d2b; pointer-events: none; overflow: hidden;
+}
+.holiday-lights span {
+  position: relative; width: 6px; height: 10px; margin-top: 0;
+  border-radius: 2px 2px 50% 50%; background: #bc3f46;
+  box-shadow: 0 2px 7px #bc3f4630; transform: rotate(12deg);
+}
+.holiday-lights span:nth-child(3n+2) { background: #d5aa57; box-shadow: 0 2px 7px #d5aa5740; transform: rotate(-10deg); }
+.holiday-lights span:nth-child(3n) { background: #2d6b4e; box-shadow: 0 2px 7px #2d6b4e30; transform: rotate(7deg); }
+.site-header { background: #fbf7edfa; backdrop-filter: blur(16px); border-bottom-color: #dce0cc; }
+.header-inner { gap: 22px; height: 94px; }
+.brand { min-width: 201px; }
+.brand-icon { color: var(--wine); width: 38px; }
+.brand-name { font-size: 25px; color: #174b37; }
+.brand-name small { letter-spacing: 3.7px; font-size: 9px; }
+.nav { gap: 21px; }
+.nav a { font-size: 13px; font-weight: 600; padding: 9px 0; white-space: nowrap; }
+.nav a.active { text-decoration-thickness: 2px; text-underline-offset: 7px; }
+.header-inner > .btn { font-size: 12px; padding: 10px 18px; min-height: 42px; }
+.hero.festive-hero { padding-top: 62px; padding-bottom: 62px; gap: 54px; position: relative; }
+.festive-hero h1 { font-size: clamp(51px, 5.4vw, 77px); letter-spacing: -3.2px; line-height: 1.03; }
+.festive-hero h1 em { color: var(--wine); }
+.holiday-badge {
+  display: inline-flex; align-items: center; gap: 8px; margin: 0 0 24px;
+  padding: 7px 12px; border: 1px solid #c8d5bd; background: #edf2e5;
+  border-radius: 30px; color: #24513b; font-size: 10px; line-height: 1.5;
+  text-transform: uppercase; letter-spacing: 1.45px; font-weight: 700;
+}
+.festive-hero .lead { font-size: 17px; max-width: 460px; color: #637064; }
+.hero-photo { isolation: isolate; }
+.festive-hero .hero-photo::before {
+  content: ''; position: absolute; width: 102%; height: 92%; top: 6%; right: -12px;
+  z-index: -1; border: 1px solid #c8d2bd; border-radius: 180px 180px 24px 24px;
+  transform: rotate(3deg);
+}
+.festive-hero .hero-photo > img {
+  border-radius: 160px 160px 22px 22px; aspect-ratio: .97;
+  box-shadow: 0 20px 48px #2b402a10; object-position: 47% 50%;
+}
+.ornament-badge {
+  position: absolute; top: -13px; right: -15px; width: 106px; height: 106px;
+  padding: 20px 11px 15px; border-radius: 50%; background: #a5323f;
+  color: #fff3db; font: italic 20px/1.05 var(--serif); text-align: center;
+  transform: rotate(11deg); box-shadow: 0 0 0 5px var(--cream), 0 8px 18px #65172a15;
+  display: flex; align-items: center; justify-content: center;
+}
+.ornament-badge::before { content: ''; position: absolute; top: -9px; width: 19px; height: 12px; border-radius: 4px 4px 0 0; background: #b58c47; border: 1px solid #a97b39; }
+.ornament-badge::after { content: ''; position: absolute; top: -17px; width: 10px; height: 10px; border: 2px solid #a97b39; border-radius: 50%; }
+.image-note { background: #fffdf3; padding: 19px 24px; border: 1px solid #e2dec8; border-radius: 12px; box-shadow: 0 9px 27px #2c3b2617; }
+.image-note strong { color: var(--green); }
+.image-note span { color: #6c6c5a; }
+.hero-meta { gap: 10px 17px; color: #677161; font-size: 11px; }
+.hero-meta span::before { color: #8b2d39; }
+.holiday-ribbon {
+  padding: 18px 26px; border-top: 1px solid #d7dccb; border-bottom: 1px solid #d7dccb;
+  background: #edf0e3; display: flex; gap: 16px 38px; align-items: center;
+  justify-content: center; text-align: center; color: #31523b;
+  font-size: 12px; font-weight: 600;
+}
+.holiday-ribbon span { display: inline-flex; align-items: center; gap: 12px; }
+.holiday-ribbon span + span::before { content: '✧'; color: #a47c39; font-size: 20px; line-height: 1; margin-right: 12px; }
+.section { padding-top: 74px; padding-bottom: 74px; }
+.section-heading { margin-bottom: 32px; }
+.section-heading h2 { line-height: 1.1; }
+.section-heading > p { font-size: 15px; }
+.festive-paths .path { border: 1px solid #cfdac5; min-height: 285px; padding: 29px; overflow: hidden; }
+.festive-paths .path:nth-child(1) { background: #e8efdf; }
+.festive-paths .path:nth-child(2) { background: #f5e6df; border-color: #e8cfc5; }
+.festive-paths .path:nth-child(3) { background: #f4ecd6; border-color: #e3d8b8; }
+.festive-paths .path::after { content: '✧'; position: absolute; top: 12px; right: 22px; font: 61px/1 var(--serif); color: #658155; opacity: .35; }
+.festive-paths .path:nth-child(2)::after { content: '✶'; color: #b55c5d; font-size: 49px; top: 20px; }
+.festive-paths .path:nth-child(3)::after { content: '✧'; color: #b68940; }
+.festive-paths .path .number { color: #57724b; font-size: 10px; margin-bottom: 32px; }
+.festive-paths .path:nth-child(2) .number { color: #9d5660; }
+.festive-paths .path:nth-child(3) .number { color: #8a6b37; }
+.festive-paths .path h3 { font-size: 29px; max-width: 260px; line-height: 1.1; }
+.festive-paths .path p { color: #5a6657; font-size: 14px; }
+.festive-paths .path:hover { transform: translateY(-3px); box-shadow: 0 12px 25px #173d2d0c; }
+.festive-paths .path { transition: transform .2s, box-shadow .2s; }
+.planner-teaser { background: #174b37; position: relative; overflow: hidden; border: 1px solid #174b37; }
+.planner-teaser::before { content: '✧'; position: absolute; left: 39%; top: 22px; font: 70px/1 var(--serif); color: #ead7a4; opacity: .27; }
+.planner-teaser > * { position: relative; }
+.planner-teaser h2 { line-height: 1.1; }
+.planner-teaser .mini-plan { border: 1px solid #e9dfc5; box-shadow: 0 14px 28px #06241925; }
+.mini-plan h3 { color: var(--green); }
+.holiday-countdown { background: #f1e6ca; color: var(--green); padding: 22px 28px; border: 1px solid #dfd0a9; border-radius: 18px; }
+.holiday-countdown strong { font: 48px/1 var(--serif); font-variant-numeric: tabular-nums; }
+.holiday-countdown p { margin: 8px 0 0; font-size: 13px; }
+.holiday-feature {
+  display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 42px;
+  padding: 46px 50px; border: 1px solid #e7d8c0; border-radius: 28px;
+  background-color: #f4ead7;
+  background-image: linear-gradient(90deg, #b58d4d07 1px, transparent 1px), linear-gradient(#b58d4d07 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+.feature-copy h2 { max-width: 550px; margin-bottom: 20px; }
+.feature-copy p { max-width: 500px; color: #65705b; }
+.feature-art { position: relative; display: flex; align-items: center; justify-content: center; min-height: 270px; }
+.feature-art > svg { width: 260px; height: 260px; max-width: 100%; }
+.feature-art > img { width: 100%; height: auto; object-fit: cover; border-radius: 22px; }
+.feature-art::after { content: '✧'; position: absolute; right: 0; top: 0; font: 45px/1 var(--serif); color: #ad7737; }
+.tradition-board { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.tradition-card { background: #fffdf7; border: 1px solid #e4dfce; border-radius: 20px; padding: 29px; position: relative; }
+.tradition-card:nth-child(2) { background: #edf1e5; border-color: #d6dfca; }
+.tradition-card:nth-child(3) { background: #f7e8e1; border-color: #ecd4ca; }
+.tradition-card .number { color: #9d7639; font-size: 11px; letter-spacing: 1.7px; display: block; margin-bottom: 22px; }
+.tradition-card h3 { font-size: 27px; line-height: 1.15; margin-bottom: 14px; }
+.tradition-card p { color: #667060; font-size: 14px; line-height: 1.75; }
+.tradition-card p:last-child { margin-bottom: 0; }
+.tradition-card a { font-weight: 600; font-size: 13px; }
+.gift-finder { background: var(--paper); border: 1px solid #e0dece; border-radius: 28px; padding: 34px; }
+.gift-controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; max-width: 650px; margin-bottom: 13px; }
+.gift-controls .field select { border-radius: 10px; background-color: #fbf8ef; min-height: 46px; }
+.gift-status { font-size: 12px; color: #65715f; margin: 12px 0 25px; }
+.gift-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.gift-card { border: 1px solid #dedecf; background: #fffdf8; border-radius: 20px; overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
+.gift-art { height: 168px; display: flex; justify-content: center; align-items: center; background: #e8eddf; position: relative; overflow: hidden; }
+.gift-art::before { content: ''; position: absolute; width: 126px; height: 126px; border: 1px dashed #70825d40; border-radius: 50%; }
+.gift-art svg { width: 98px; height: 98px; position: relative; }
+.gift-card:nth-child(3n+2) .gift-art { background: #f4e4df; }
+.gift-card:nth-child(3n+3) .gift-art { background: #f2ebd7; }
+.gift-copy { padding: 23px; display: flex; flex-direction: column; flex: 1; }
+.gift-copy h3 { font-size: 25px; line-height: 1.15; margin-bottom: 12px; }
+.gift-copy p { font-size: 13px; color: #64705f; line-height: 1.75; }
+.gift-copy .btn { align-self: flex-start; margin-top: auto; min-height: 42px; font-size: 12px; padding: 9px 17px; }
+.gift-meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 16px; }
+.gift-meta .tag { margin-bottom: 0; font-size: 9px; letter-spacing: 1.1px; }
+.gift-budget { display: inline-flex; padding: 4px 9px; font-size: 10px; border-radius: 20px; background: #f1eee1; color: #526046; font-weight: 600; }
+.gift-empty { padding: 30px; text-align: center; background: #edf1e4; border-radius: 16px; grid-column: 1/-1; color: #5c6b50; font-size: 14px; }
+.affiliate-note { font-size: 12px; line-height: 1.75; color: #6b6d5e; margin: 22px 0 0; padding: 17px 20px; border-left: 3px solid #b58a45; background: #f6f0e0; border-radius: 0 10px 10px 0; }
+.affiliate-note a { color: #8c2938; }
+.challenge-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: 42px; align-items: start; }
+.challenge-intro { padding-top: 10px; }
+.challenge-intro h2 { line-height: 1.1; }
+.challenge-intro > p { color: #65705f; }
+.challenge-checklist { border: 1px solid #d7dfca; border-radius: 24px; background: var(--paper); overflow: hidden; }
+.challenge-step { border-bottom: 1px solid #e3e5d6; }
+.challenge-step:last-child { border-bottom: 0; }
+.challenge-step label { display: flex; align-items: flex-start; gap: 15px; padding: 22px 25px; cursor: pointer; transition: background .2s; }
+.challenge-step label:hover { background: #edf1e5; }
+.challenge-step input[type="checkbox"] { width: 20px; height: 20px; flex: 0 0 20px; margin: 3px 0 0; accent-color: #225239; cursor: pointer; }
+.step-content { display: block; }
+.step-content strong { display: block; font-size: 14px; line-height: 1.5; color: #294c37; }
+.step-content small { display: block; color: #69745f; font-size: 12px; line-height: 1.65; margin-top: 4px; }
+.challenge-step:has(input:checked) label { background: #eaf0df; }
+.challenge-step:has(input:checked) .step-content strong { text-decoration: line-through; text-decoration-color: #53734c88; }
+.challenge-progress { font-size: 13px; font-weight: 600; color: #406044; margin: 26px 0 8px; }
+.holiday-progress-track { height: 9px; background: #dce4cf; border-radius: 8px; overflow: hidden; margin-bottom: 20px; }
+.holiday-progress-track > span { display: block; width: 0; height: 100%; border-radius: inherit; background: #a4313e; transition: width .35s ease; }
+.challenge-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 19px; }
+.challenge-actions button { border: 1px solid #cdd7bf; background: transparent; color: #32523a; padding: 8px 14px; min-height: 40px; font-size: 12px; border-radius: 24px; }
+.challenge-actions button:hover { background: #edf1e3; }
+.season-note { font-size: 12px; color: #6e705f; line-height: 1.7; margin-top: 18px; }
+.section.warm { background: #f3eee1; border-block: 1px solid #e9e2d0; }
+.article-card { border-radius: 19px; }
+.article-card .card-art { border: 1px solid #d8decc; border-radius: 19px; background: #e8eedf; }
+.article-card .card-art.rose { border-color: #e8d0c9; background: #f3e3de; }
+.article-card .card-art.sand { border-color: #e4d9ba; background: #f1e7cd; }
+.article-card .card-art.green { border-color: #cbd9c1; background: #dfead6; }
+.article-card .card-art::after { content: '✧'; position: absolute; top: 18px; right: 23px; color: #75836566; font: 30px/1 var(--serif); }
+.article-card h3 { line-height: 1.17; }
+.card-art svg { transition: transform .25s ease; }
+.article-card:hover .card-art svg { transform: rotate(-3deg) scale(1.05); }
+.closing { position: relative; overflow: hidden; background: #174b37; border-top: 5px solid #e9d4a4; }
+.closing::before, .closing::after { content: '✧'; position: absolute; color: #e4ce9a66; font: 80px/1 var(--serif); top: 38%; pointer-events: none; }
+.closing::before { left: 7%; transform: rotate(-9deg); }
+.closing::after { right: 7%; font-size: 54px; top: 20%; }
+.closing > * { position: relative; }
+.footer { background: #f8f2e6; }
+.footer-note { color: #6b7163; }
+.footer-links { max-width: 670px; justify-content: flex-end; gap: 12px 20px; }
+.page-intro .holiday-badge { margin-bottom: 18px; }
+.page-intro .lead { line-height: 1.7; }
+.filter[aria-pressed="true"] { box-shadow: 0 2px 4px #173d2d12; }
+.snow-layer { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 30; }
+.snowflake { position: absolute; top: -24px; left: var(--left, 50%); color: #fdfdf5; font-size: var(--size, 12px); text-shadow: 0 0 2px #3a634780; opacity: .7; animation: christmas-snow var(--duration, 12s) linear var(--delay, 0s) infinite; }
+@keyframes christmas-snow { from { transform: translate3d(0, -4vh, 0) rotate(0); } to { transform: translate3d(30px, 110vh, 0) rotate(140deg); } }
+@media (max-width: 1120px) {
+  .nav { gap: 17px; }
+  .nav a { font-size: 12px; }
+  .header-inner { gap: 18px; }
+  .header-inner > .btn { padding-inline: 14px; font-size: 11px; }
+  .festive-hero h1 { font-size: 65px; }
+  .ornament-badge { right: -7px; width: 93px; height: 93px; font-size: 18px; }
+  .holiday-feature { padding: 35px; }
+}
+@media (max-width: 960px) {
+  .header-inner { height: 82px; position: relative; flex-wrap: wrap; }
+  .header-inner > .btn { display: none; }
+  .menu-toggle { display: block; min-height: 40px; border-color: #cbd5bd; border-radius: 10px; color: var(--green); }
+  .nav { display: none; position: absolute; top: 81px; left: 0; right: 0; margin: 0; padding: 20px 26px; background: #fbf7ed; box-shadow: 0 12px 20px #26382f14; border: 1px solid var(--line); border-top: 0; border-radius: 0 0 16px 16px; flex-direction: column; align-items: stretch; gap: 4px; }
+  .nav.open { display: flex; }
+  .nav a { font-size: 15px; padding: 10px 4px; }
+  .hero.festive-hero { gap: 33px; padding-top: 50px; padding-bottom: 45px; }
+  .festive-hero h1 { font-size: 57px; letter-spacing: -2.5px; }
+  .festive-hero .lead { font-size: 16px; }
+  .hero-meta { font-size: 10px; }
+  .holiday-badge { font-size: 9px; letter-spacing: 1.2px; }
+  .ornament-badge { width: 82px; height: 82px; font-size: 16px; top: -5px; right: -7px; }
+  .image-note { left: -15px; bottom: 17px; padding: 14px 18px; }
+  .image-note strong { font-size: 21px; }
+  .image-note span { font-size: 10px; }
+  .holiday-ribbon { gap: 12px 21px; font-size: 11px; }
+  .holiday-ribbon span + span::before { margin-right: 0; }
+  .festive-paths .path { padding: 25px; min-height: 280px; }
+  .festive-paths .path h3 { font-size: 25px; }
+  .gift-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .gift-finder { padding: 28px; }
+  .tradition-board { gap: 15px; }
+  .tradition-card { padding: 24px; }
+  .tradition-card h3 { font-size: 24px; }
+  .challenge-layout { gap: 30px; grid-template-columns: .9fr 1.1fr; }
+  .challenge-step label { padding: 20px; gap: 12px; }
+}
+@media (max-width: 760px) {
+  .topline.holiday-topline { gap: 5px 14px; padding: 9px 14px; font-size: 10px; }
+  .holiday-topline > :first-child { flex-basis: 100%; }
+  .snow-toggle { font-size: 10px; min-height: 27px; padding: 2px 9px; }
+  .header-inner { height: 77px; }
+  .brand-icon { width: 31px; }
+  .brand-name { font-size: 22px; }
+  .brand-name small { font-size: 8px; letter-spacing: 3.5px; }
+  .nav { top: 76px; padding: 16px 21px; }
+  .hero.festive-hero { grid-template-columns: 1fr; padding-top: 36px; padding-bottom: 39px; gap: 34px; }
+  .festive-hero h1 { font-size: clamp(48px, 10.7vw, 65px); line-height: 1.04; max-width: 520px; letter-spacing: -2.5px; margin-bottom: 23px; }
+  .festive-hero .lead { max-width: 490px; font-size: 16px; margin-bottom: 24px; }
+  .holiday-badge { font-size: 9px; margin-bottom: 21px; padding: 6px 10px; }
+  .hero-meta { margin-top: 21px; gap: 8px 13px; }
+  .festive-hero .hero-photo { padding: 0 9px 18px; max-width: 560px; width: 100%; justify-self: center; }
+  .festive-hero .hero-photo > img { aspect-ratio: 1.3; border-radius: 100px 100px 20px 20px; }
+  .festive-hero .hero-photo::before { width: 95%; height: 87%; right: 0; top: 7%; border-radius: 110px 110px 20px 20px; }
+  .ornament-badge { width: 84px; height: 84px; top: 5px; right: 0; font-size: 17px; }
+  .image-note { bottom: 0; left: 0; max-width: 245px; padding: 14px 20px; }
+  .image-note strong { font-size: 22px; }
+  .image-note span { font-size: 11px; }
+  .holiday-ribbon { padding: 16px 18px; gap: 9px 20px; font-size: 11px; justify-content: space-evenly; }
+  .holiday-ribbon span { gap: 6px; }
+  .holiday-ribbon span + span::before { content: none; }
+  .section { padding-top: 48px; padding-bottom: 48px; }
+  .section-heading { margin-bottom: 25px; gap: 14px; }
+  .section-heading > p { font-size: 14px; }
+  .festive-paths .path { min-height: 0; padding: 26px; }
+  .festive-paths .path .number { margin-bottom: 19px; }
+  .festive-paths .path h3 { font-size: 28px; max-width: none; margin-right: 18px; }
+  .festive-paths .path p { max-width: 90%; margin-bottom: 0; }
+  .festive-paths .path::after { font-size: 46px; right: 22px; top: 16px; }
+  .festive-paths .path .arrow { top: auto; bottom: 20px; font-size: 21px; }
+  .festive-paths .path:nth-child(2)::after { font-size: 40px; top: 21px; }
+  .planner-teaser { padding: 28px; border-radius: 23px; }
+  .planner-teaser::before { left: auto; right: 28px; top: 23px; font-size: 52px; }
+  .planner-teaser h2 { max-width: 440px; }
+  .mini-plan { padding: 24px; }
+  .holiday-feature { grid-template-columns: 1fr; padding: 29px; gap: 16px; border-radius: 23px; }
+  .feature-art { min-height: 200px; }
+  .feature-art > svg { width: 205px; height: 205px; }
+  .tradition-board { grid-template-columns: 1fr; gap: 14px; }
+  .tradition-card { padding: 26px; }
+  .tradition-card .number { margin-bottom: 17px; }
+  .tradition-card h3 { font-size: 27px; }
+  .gift-finder { padding: 22px; border-radius: 23px; }
+  .gift-controls { gap: 12px; }
+  .gift-controls .field label { font-size: 12px; }
+  .gift-controls .field select { font-size: 13px; padding: 11px 9px; }
+  .gift-grid { gap: 15px; }
+  .gift-art { height: 130px; }
+  .gift-art svg { width: 80px; height: 80px; }
+  .gift-art::before { width: 105px; height: 105px; }
+  .gift-copy { padding: 18px; }
+  .gift-copy h3 { font-size: 23px; }
+  .gift-copy p { font-size: 12px; }
+  .gift-copy .btn { font-size: 11px; padding: 9px 13px; }
+  .gift-meta { gap: 7px; margin-bottom: 13px; }
+  .gift-meta .tag { font-size: 8px; }
+  .gift-budget { font-size: 9px; }
+  .affiliate-note { font-size: 11px; padding: 14px 16px; }
+  .challenge-layout { grid-template-columns: 1fr; gap: 26px; }
+  .challenge-intro { padding-top: 0; }
+  .challenge-progress { margin-top: 20px; }
+  .challenge-step label { padding: 20px 22px; }
+  .challenge-checklist { border-radius: 20px; }
+  .grid-articles { gap: 31px; }
+  .article-card h3 { font-size: 29px; }
+  .closing::before { left: -15px; top: 16%; font-size: 60px; opacity: .5; }
+  .closing::after { right: -3px; top: 60%; font-size: 40px; opacity: .6; }
+  .closing { padding: 43px 26px; }
+  .closing p { font-size: 14px; }
+  .footer-main { gap: 25px; }
+  .footer-links { justify-content: flex-start; gap: 13px 18px; font-size: 12px; }
+}
+@media (max-width: 480px) {
+  .gift-grid { grid-template-columns: 1fr; }
+  .gift-card { display: grid; grid-template-columns: 94px minmax(0, 1fr); align-items: stretch; border-radius: 16px; }
+  .gift-art { height: auto; min-height: 196px; }
+  .gift-art svg { width: 70px; height: 70px; }
+  .gift-art::before { width: 82px; height: 82px; }
+  .gift-copy { padding: 18px 16px; }
+  .gift-copy h3 { font-size: 23px; }
+  .gift-meta { margin-bottom: 11px; }
+  .gift-copy p { line-height: 1.65; }
+  .gift-copy .btn { padding: 8px 11px; min-height: 38px; }
+  .gift-controls { grid-template-columns: 1fr; gap: 14px; }
+  .gift-finder { padding: 21px 17px; }
+  .holiday-topline { line-height: 1.6; }
+  .holiday-ribbon { gap: 8px 14px; }
+  .holiday-ribbon span { font-size: 10px; }
+  .festive-hero .button-row .btn { font-size: 12px; padding-inline: 18px; }
+  .festive-hero .button-row .quiet-link { font-size: 12px; }
+  .festive-hero .hero-meta { font-size: 9px; gap: 7px 11px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .snow-layer { display: none !important; }
+  .path, .btn, .card-art svg, .holiday-progress-track > span { transition: none !important; }
+}
+@media print {
+  .holiday-topline, .holiday-lights, .holiday-ribbon, .snow-layer, .snow-toggle, .ornament-badge, .challenge-actions { display: none !important; }
+  .challenge-layout { display: block; }
+  .challenge-checklist { margin-top: 20px; }
+  .gift-finder, .gift-card, .tradition-card { break-inside: avoid; box-shadow: none; }
+}
+
+/* Integrated seasonal pages: shared components and compact screens. */
+.festive-paths .path .number { margin-bottom: 14px; }
+.festive-paths .path .card-art { width: 104px; height: 104px; background: transparent; margin: 0 0 18px; }
+.festive-paths .path .card-art svg { width: 100px; height: 100px; }
+.festive-paths .path .quiet-link { margin-top: auto; padding-top: 12px; font-size: 13px; }
+.holiday-ribbon > span + span::before { content: none; }
+.holiday-fun-section { background: #f3ede0; border-block: 1px solid #e4ddca; }
+.split-feature .tradition-board { grid-template-columns: 1fr; }
+.tradition-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.tradition-card h2 { font-size: 27px; letter-spacing: -.7px; line-height: 1.15; margin-bottom: 14px; }
+.holiday-feature.feature-single { grid-template-columns: 1fr; }
+.feature-single .feature-copy { max-width: 760px; }
+.feature-single .feature-copy p { max-width: 650px; }
+.challenge-preview .feature-art { flex-direction: column; gap: 18px; }
+.feature-art .card-art { width: 220px; height: 220px; margin: 0; background: #fff8e8; border: 1px solid #ded0ad; border-radius: 50%; }
+.feature-art .card-art svg { width: 155px; height: 155px; }
+.feature-art .holiday-badge { margin: 0; }
+.gift-controls { grid-template-columns: minmax(0,1fr) minmax(0,1fr) auto; max-width: none; align-items: end; }
+.gift-controls > .btn { min-height: 46px; }
+.gift-copy h2 { font-size: 25px; line-height: 1.17; letter-spacing: -.6px; margin-bottom: 14px; }
+.gift-copy .gift-meta { margin-top: auto; margin-bottom: 0; padding-top: 7px; flex-direction: column; align-items: flex-start; gap: 10px; }
+.gift-copy .gift-budget { align-self: flex-start; font-size: 11px; color: #405137; }
+.gift-art .card-art { width: 100%; height: 100%; margin: 0; background: transparent; border-radius: 0; }
+.gift-art .card-art svg { width: 105px; height: 105px; }
+.challenge-layout { margin-bottom: 55px; }
+.challenge-step .step-content small { margin: 0 0 5px; font-size: 10px; font-weight: 700; letter-spacing: 1.5px; }
+.challenge-step .step-content > span { display: block; font-size: 14px; line-height: 1.7; color: #5c6858; margin-top: 8px; }
+.challenge-step > .quiet-link { display: inline-block; margin: 0 25px 22px 60px; font-size: 12px; }
+.challenge-step.complete { background: #edf2e6; }
+.challenge-actions .btn:not(.outline) { background: var(--green); border-color: var(--green); color: #fffdf4; }
+.challenge-actions .btn:not(.outline):hover { background: #113a29; }
+.earning-tools { margin-bottom: 58px; }
+.earning-tools .affiliate-note { margin-top: 28px; margin-bottom: 22px; }
+.tool-recommendations { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.tool-recommendations .resource { display: flex; flex-direction: column; }
+.tool-recommendations .resource .btn { margin-top: auto; align-self: flex-start; }
+.program-disclosure { padding: 10px 12px; border-left: 2px solid var(--wine); background: #f8eee6; font-size: 12px !important; }
+.snowflake { left: var(--x, 50%); width: var(--size, 5px); height: var(--size, 5px); background: #fffef7; border-radius: 50%; box-shadow: 0 0 2px #294b3440; }
+@media (max-width: 960px) {
+  .tradition-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .tool-recommendations { grid-template-columns: 1fr; }
+  .gift-controls { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .gift-controls > .btn { grid-column: 1/-1; justify-self: start; }
+}
+@media (max-width: 760px) {
+  .countdown-small { white-space: normal; text-align: center; justify-content: center; }
+  .holiday-ribbon { flex-wrap: wrap; }
+  .tradition-grid { grid-template-columns: 1fr; }
+  .tradition-card h2 { font-size: 28px; }
+  .festive-paths .path p { margin-bottom: 15px; }
+  .challenge-step > .quiet-link { margin-left: 54px; }
+  .gift-copy h2 { font-size: 25px; }
+  .gift-copy .gift-budget { font-size: 11px; }
+}
+@media (max-width: 480px) {
+  .gift-card { display: flex; border-radius: 18px; }
+  .gift-art { height: 144px; min-height: 144px; }
+  .gift-copy { padding: 23px; }
+  .gift-copy h2 { font-size: 27px; }
+  .gift-copy p { font-size: 14px; }
+  .gift-copy .btn { min-height: 44px; font-size: 12px; }
+  .gift-meta .tag { font-size: 10px; }
+  .gift-controls { grid-template-columns: 1fr; }
+  .gift-controls .field select { font-size: 16px; }
+  .gift-controls > .btn { grid-column: 1; }
+  .holiday-badge { max-width: 100%; white-space: normal; }
+  .festive-hero h1 { font-size: clamp(43px, 11.4vw, 54px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .snow-toggle { display: none; }
+}
+@media print {
+  .challenge-step { break-inside: avoid; }
+  .challenge-step > .quiet-link { display: none; }
+}

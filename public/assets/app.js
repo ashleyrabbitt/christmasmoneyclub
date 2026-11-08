@@ -2,6 +2,62 @@ import { calculatePlan } from './planner-math.js';
 const menuButton = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.nav');
 if(menuButton && nav) menuButton.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open));menuButton.setAttribute('aria-label',open?'Close navigation':'Open navigation');menuButton.textContent=open?'Close':'Menu';});
+const closeMenu=()=>{if(!menuButton||!nav)return;nav.classList.remove('open');menuButton.setAttribute('aria-expanded','false');menuButton.setAttribute('aria-label','Open navigation');menuButton.textContent='Menu';};
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&nav?.classList.contains('open')){closeMenu();menuButton.focus();}});
+nav?.addEventListener('click',event=>{if(event.target.closest('a'))closeMenu();});
+
+// Count calendar days, so daylight-saving changes do not move the countdown.
+const countdown=document.querySelector('[data-christmas-countdown]');
+if(countdown){
+ const now=new Date();let year=now.getFullYear();
+ if(now.getMonth()===11&&now.getDate()>25)year++;
+ const days=Math.round((Date.UTC(year,11,25)-Date.UTC(now.getFullYear(),now.getMonth(),now.getDate()))/86400000);
+ countdown.textContent=days===0?'Merry Christmas. Make room for what matters.':`${days} ${days===1?'day':'days'} until Christmas · A little more magic starts here.`;
+}
+const snowToggle=document.querySelector('.snow-toggle');
+const snowLayer=document.querySelector('.snow-layer');
+if(snowToggle&&snowLayer){
+ const setSnow=on=>{snowLayer.hidden=!on;snowToggle.setAttribute('aria-pressed',String(on));snowToggle.setAttribute('aria-label',on?'Turn off decorative snow':'Turn on decorative snow');snowToggle.textContent=on?'Snow off ❄':'Let it snow ❄';};
+ try{setSnow(sessionStorage.getItem('cmc-snow')==='on');}catch{setSnow(false);}
+ snowToggle.addEventListener('click',()=>{const on=snowLayer.hidden;setSnow(on);try{sessionStorage.setItem('cmc-snow',on?'on':'off');}catch{}});
+}
+
+const giftCards=[...document.querySelectorAll('[data-gift]')];
+const recipientInput=document.querySelector('#gift-recipient');
+const budgetInput=document.querySelector('#gift-budget');
+if(giftCards.length&&recipientInput&&budgetInput){
+ const filterGifts=()=>{
+  let count=0;
+  giftCards.forEach(card=>{const recipientMatches=recipientInput.value==='all'||card.dataset.recipient.split('|').includes(recipientInput.value);const budgetMatches=budgetInput.value==='all'||Number(card.dataset.budget)<=Number(budgetInput.value);card.hidden=!(recipientMatches&&budgetMatches);if(!card.hidden)count++;});
+  document.querySelector('#gift-count').textContent=`${count} thoughtful ${count===1?'idea':'ideas'} to explore`;
+  document.querySelector('#gift-empty').hidden=count!==0;
+ };
+ const resetGifts=()=>{recipientInput.value='all';budgetInput.value='all';filterGifts();};
+ recipientInput.addEventListener('change',filterGifts);budgetInput.addEventListener('change',filterGifts);
+ document.querySelector('#reset-gifts').addEventListener('click',resetGifts);
+ document.querySelector('[data-reset-gifts]').addEventListener('click',resetGifts);
+ filterGifts();
+}
+
+const steps=[...document.querySelectorAll('[data-challenge-step]')];
+if(steps.length){
+ const key='cmc-christmas-checklist-v1';
+ const status=document.querySelector('#challenge-status');
+ const updateChallenge=()=>{
+  const count=steps.filter(step=>step.checked).length;
+  document.querySelector('#challenge-progress').textContent=`${count} of ${steps.length} small steps complete`;
+  const progress=document.querySelector('.holiday-progress-track');
+  progress.setAttribute('aria-valuenow',String(count));progress.firstElementChild.style.width=`${count/steps.length*100}%`;
+  document.querySelector('#challenge-encouragement').textContent=count===steps.length?'All seven steps complete. That deserves a little celebration.':count===0?'Choose the easiest step and begin there.':'A little progress counts. Keep going at your own pace.';
+  steps.forEach(step=>step.closest('.challenge-step').classList.toggle('complete',step.checked));
+ };
+ steps.forEach(step=>step.addEventListener('change',()=>{updateChallenge();status.textContent='Progress updated. Choose Save my progress to keep these changes on this device.';}));
+ try{const saved=JSON.parse(localStorage.getItem(key)||'null');if(Array.isArray(saved)){steps.forEach((step,i)=>step.checked=saved[i]===true);status.textContent='Loaded your saved Christmas checklist on this device.';}}catch{}
+ document.querySelector('#save-challenge').addEventListener('click',()=>{try{localStorage.setItem(key,JSON.stringify(steps.map(step=>step.checked)));status.textContent='Progress saved on this device. Come back to this browser to pick up where you left off.';}catch{status.textContent='This browser could not save your progress. You can print the checklist instead.';}});
+ document.querySelector('#reset-challenge').addEventListener('click',()=>{steps.forEach(step=>step.checked=false);try{localStorage.removeItem(key);}catch{}updateChallenge();status.textContent='Checklist reset. Any saved progress on this device was removed.';});
+ document.querySelector('#print-challenge').addEventListener('click',()=>window.print());
+ updateChallenge();
+}
 
 const cards=[...document.querySelectorAll('[data-article]')];
 const filterButtons=[...document.querySelectorAll('[data-filter]')];

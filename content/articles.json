@@ -68,11 +68,24 @@
       }
     ],
     "sources": [
-      {"title": "CFPB: Budgeting—how to create a budget and stick with it", "url": "https://www.consumerfinance.gov/archive/blog/budgeting-how-to-create-a-budget-and-stick-with-it/"},
-      {"title": "FTC: How to spot and avoid task scams", "url": "https://consumer.ftc.gov/consumer-alerts/2025/08/how-spot-avoid-task-scams"},
-      {"title": "FTC: Job scams", "url": "https://consumer.ftc.gov/articles/job-scams"}
+      {
+        "title": "CFPB: Budgeting—how to create a budget and stick with it",
+        "url": "https://www.consumerfinance.gov/archive/blog/budgeting-how-to-create-a-budget-and-stick-with-it/"
+      },
+      {
+        "title": "FTC: How to spot and avoid task scams",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2025/08/how-spot-avoid-task-scams"
+      },
+      {
+        "title": "FTC: Job scams",
+        "url": "https://consumer.ftc.gov/articles/job-scams"
+      }
     ],
-    "related": ["holiday-side-hustles", "christmas-savings-plan", "spotting-holiday-job-scams"]
+    "related": [
+      "holiday-side-hustles",
+      "christmas-savings-plan",
+      "spotting-holiday-job-scams"
+    ]
   },
   {
     "slug": "holiday-side-hustles",
@@ -144,12 +157,28 @@
       }
     ],
     "sources": [
-      {"title": "IRS: Gig economy tax center", "url": "https://www.irs.gov/businesses/gig-economy-tax-center"},
-      {"title": "IRS: Manage taxes for your gig work", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/manage-taxes-for-your-gig-work"},
-      {"title": "IRS: What kind of records should I keep?", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/what-kind-of-records-should-i-keep"},
-      {"title": "FTC: Job scams", "url": "https://consumer.ftc.gov/articles/job-scams"}
+      {
+        "title": "IRS: Gig economy tax center",
+        "url": "https://www.irs.gov/businesses/gig-economy-tax-center"
+      },
+      {
+        "title": "IRS: Manage taxes for your gig work",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/manage-taxes-for-your-gig-work"
+      },
+      {
+        "title": "IRS: What kind of records should I keep?",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/what-kind-of-records-should-i-keep"
+      },
+      {
+        "title": "FTC: Job scams",
+        "url": "https://consumer.ftc.gov/articles/job-scams"
+      }
     ],
-    "related": ["seven-day-christmas-cash-plan", "spotting-holiday-job-scams", "christmas-savings-plan"]
+    "related": [
+      "seven-day-christmas-cash-plan",
+      "spotting-holiday-job-scams",
+      "christmas-savings-plan"
+    ]
   },
   {
     "slug": "christmas-savings-plan",
@@ -213,10 +242,20 @@
       }
     ],
     "sources": [
-      {"title": "CFPB: Your Money, Your Goals toolkit", "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/your-money-your-goals/toolkit/"},
-      {"title": "CFPB: Budgeting—how to create a budget and stick with it", "url": "https://www.consumerfinance.gov/archive/blog/budgeting-how-to-create-a-budget-and-stick-with-it/"}
+      {
+        "title": "CFPB: Your Money, Your Goals toolkit",
+        "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/your-money-your-goals/toolkit/"
+      },
+      {
+        "title": "CFPB: Budgeting—how to create a budget and stick with it",
+        "url": "https://www.consumerfinance.gov/archive/blog/budgeting-how-to-create-a-budget-and-stick-with-it/"
+      }
     ],
-    "related": ["gift-under-budget", "seven-day-christmas-cash-plan", "buy-now-pay-later-checklist"]
+    "related": [
+      "gift-under-budget",
+      "seven-day-christmas-cash-plan",
+      "buy-now-pay-later-checklist"
+    ]
   },
   {
     "slug": "buy-now-pay-later-checklist",
@@ -280,12 +319,28 @@
       }
     ],
     "sources": [
-      {"title": "CFPB: What is a buy now, pay later loan?", "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-buy-now-pay-later-bnpl-loan-en-2119/"},
-      {"title": "CFPB: Do buy now, pay later loans have fees?", "url": "https://www.consumerfinance.gov/ask-cfpb/do-buy-now-pay-later-bnpl-loans-have-fees-en-2118/"},
-      {"title": "CFPB: Will a buy now, pay later loan impact my credit scores?", "url": "https://www.consumerfinance.gov/ask-cfpb/will-a-buy-now-pay-later-bnpl-loan-impact-my-credit-scores-en-2117/"},
-      {"title": "CFPB: What happens if I cannot pay back a buy now, pay later loan?", "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-i-cant-pay-back-a-buy-now-pay-later-bnpl-loan-en-2116/"}
+      {
+        "title": "CFPB: What is a buy now, pay later loan?",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-buy-now-pay-later-bnpl-loan-en-2119/"
+      },
+      {
+        "title": "CFPB: Do buy now, pay later loans have fees?",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/do-buy-now-pay-later-bnpl-loans-have-fees-en-2118/"
+      },
+      {
+        "title": "CFPB: Will a buy now, pay later loan impact my credit scores?",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/will-a-buy-now-pay-later-bnpl-loan-impact-my-credit-scores-en-2117/"
+      },
+      {
+        "title": "CFPB: What happens if I cannot pay back a buy now, pay later loan?",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-i-cant-pay-back-a-buy-now-pay-later-bnpl-loan-en-2116/"
+      }
     ],
-    "related": ["christmas-savings-plan", "bad-credit-guide", "holiday-loan-checklist"]
+    "related": [
+      "christmas-savings-plan",
+      "bad-credit-guide",
+      "holiday-loan-checklist"
+    ]
   },
   {
     "slug": "bad-credit-guide",
@@ -333,11 +388,24 @@
       }
     ],
     "sources": [
-      {"title": "CFPB: How to rebuild your credit", "url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/how-to-rebuild-your-credit/"},
-      {"title": "FTC: Comparing credit, charge, secured credit, debit, or prepaid cards", "url": "https://consumer.ftc.gov/articles/comparing-credit-charge-secured-credit-debit-or-prepaid-cards"},
-      {"title": "Consumer.gov: Getting a credit card", "url": "https://consumer.gov/credit/getting-credit-card"}
+      {
+        "title": "CFPB: How to rebuild your credit",
+        "url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/how-to-rebuild-your-credit/"
+      },
+      {
+        "title": "FTC: Comparing credit, charge, secured credit, debit, or prepaid cards",
+        "url": "https://consumer.ftc.gov/articles/comparing-credit-charge-secured-credit-debit-or-prepaid-cards"
+      },
+      {
+        "title": "Consumer.gov: Getting a credit card",
+        "url": "https://consumer.gov/credit/getting-credit-card"
+      }
     ],
-    "related": ["holiday-loan-checklist", "buy-now-pay-later-checklist", "christmas-savings-plan"]
+    "related": [
+      "holiday-loan-checklist",
+      "buy-now-pay-later-checklist",
+      "christmas-savings-plan"
+    ]
   },
   {
     "slug": "holiday-loan-checklist",
@@ -392,11 +460,24 @@
       }
     ],
     "sources": [
-      {"title": "CFPB: Do personal installment loans have fees?", "url": "https://www.consumerfinance.gov/ask-cfpb/do-personal-installment-loans-have-fees-en-2120/"},
-      {"title": "NCUA: Principles for making responsible small-dollar loans", "url": "https://ncua.gov/regulation-supervision/letters-credit-unions-other-guidance/principles-making-responsible-small-dollar-loans"},
-      {"title": "CFPB: Your Money, Your Goals toolkit", "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/your-money-your-goals/toolkit/"}
+      {
+        "title": "CFPB: Do personal installment loans have fees?",
+        "url": "https://www.consumerfinance.gov/ask-cfpb/do-personal-installment-loans-have-fees-en-2120/"
+      },
+      {
+        "title": "NCUA: Principles for making responsible small-dollar loans",
+        "url": "https://ncua.gov/regulation-supervision/letters-credit-unions-other-guidance/principles-making-responsible-small-dollar-loans"
+      },
+      {
+        "title": "CFPB: Your Money, Your Goals toolkit",
+        "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/your-money-your-goals/toolkit/"
+      }
     ],
-    "related": ["seven-day-christmas-cash-plan", "bad-credit-guide", "buy-now-pay-later-checklist"]
+    "related": [
+      "seven-day-christmas-cash-plan",
+      "bad-credit-guide",
+      "buy-now-pay-later-checklist"
+    ]
   },
   {
     "slug": "gift-under-budget",
@@ -452,9 +533,16 @@
       }
     ],
     "sources": [
-      {"title": "CFPB: Your Money, Your Goals toolkit", "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/your-money-your-goals/toolkit/"}
+      {
+        "title": "CFPB: Your Money, Your Goals toolkit",
+        "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/your-money-your-goals/toolkit/"
+      }
     ],
-    "related": ["christmas-savings-plan", "seven-day-christmas-cash-plan", "buy-now-pay-later-checklist"]
+    "related": [
+      "christmas-savings-plan",
+      "seven-day-christmas-cash-plan",
+      "buy-now-pay-later-checklist"
+    ]
   },
   {
     "slug": "spotting-holiday-job-scams",
@@ -509,11 +597,24 @@
       }
     ],
     "sources": [
-      {"title": "FTC: Job scams", "url": "https://consumer.ftc.gov/articles/job-scams"},
-      {"title": "FTC: How to spot and avoid task scams", "url": "https://consumer.ftc.gov/consumer-alerts/2025/08/how-spot-avoid-task-scams"},
-      {"title": "FTC: Report fraud", "url": "https://reportfraud.ftc.gov/"}
+      {
+        "title": "FTC: Job scams",
+        "url": "https://consumer.ftc.gov/articles/job-scams"
+      },
+      {
+        "title": "FTC: How to spot and avoid task scams",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2025/08/how-spot-avoid-task-scams"
+      },
+      {
+        "title": "FTC: Report fraud",
+        "url": "https://reportfraud.ftc.gov/"
+      }
     ],
-    "related": ["holiday-side-hustles", "seven-day-christmas-cash-plan", "christmas-savings-plan"]
+    "related": [
+      "holiday-side-hustles",
+      "seven-day-christmas-cash-plan",
+      "christmas-savings-plan"
+    ]
   },
   {
     "slug": "creditninja-loan-guide",
@@ -668,5 +769,457 @@
       "bad-credit-guide",
       "christmas-savings-plan"
     ]
+  },
+  {
+    "slug": "thoughtful-gifts-on-a-small-budget",
+    "title": "Build a thoughtful Christmas gift bundle on a small budget",
+    "category": "Gift ideas",
+    "description": "Turn one useful item and a personal touch into a small Christmas gift that feels considered, with clear limits for packaging, delivery, and extras.",
+    "readMinutes": 4,
+    "takeaway": "Choose one useful centerpiece, add a personal detail, and count every cost before buying the bundle.",
+    "sections": [
+      {
+        "heading": "Start with a moment they would enjoy",
+        "paragraphs": [
+          "A small gift bundle works when its pieces belong together. Think of a moment the recipient enjoys: reading on the sofa, making something at the kitchen table, taking a winter walk, or cooking a familiar recipe. That gives you a useful theme without turning your shopping list into a hunt for matching products.",
+          "Write a one-sentence brief before shopping: “Something for Dad to enjoy while reading” is more helpful than “a festive hamper.” Then choose one centerpiece, one personal addition, and simple packaging. Three thoughtful elements are enough; a bigger container does not need more things to fill it."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Give the whole gift one spending limit",
+        "paragraphs": [
+          "Include tax, delivery, postage, and wrapping inside the limit. These examples are spending allocations, not current retail prices: a $10 limit might leave $7 for the main item, $1 for packaging, and $2 for tax or other costs. A $20 limit could become $14, $2, and $4; a $30 limit could become $22, $3, and $5.",
+          "Adjust those amounts to actual checkout costs. If delivery uses the entire allowance, choose local collection, a smaller item, or a gift you already have materials to make. The CFPB’s planning tools can help you fit gifts around your wider spending and bill calendar. A gift budget should leave room for the rest of December and January."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Try four bundles with a clear purpose",
+        "paragraphs": [
+          "For a reader, pair a book in good condition with a handmade bookmark and a note explaining your choice. For someone who enjoys tea, use a tea they already like and a handwritten invitation to share a cup. The invitation supplies the personal part; it does not require another purchase.",
+          "For a creative friend, choose one supply they actually use and add a small project prompt. For a cook, pair a family recipe card with an ingredient that fits their preferences and dietary needs. Ask discreetly if you are unsure. Avoid hobby equipment that requires expensive refills, a subscription, or an accessory the recipient does not own."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Make shared supplies work honestly",
+        "paragraphs": [
+          "Suppose two gifts have a combined $30 cap. You spend $18 on their main items, $4 on a pack of tags, and $3 on paper, leaving $5 for tax and other costs. Count the full $7 spent on supplies today, even if you use only two tags. Leftover materials are useful for later; they do not reduce this checkout total.",
+          "Before buying a multipack, decide where the remaining items will go. Dividing a bulk purchase among planned gifts can make sense, but buying extras solely because the unit price looks low can increase spending. Keep each recipient’s preferences in view instead of distributing identical filler."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Make presentation personal with what you have",
+        "paragraphs": [
+          "A clean reused box, paper bag, fabric square, or existing ribbon can hold a lovely gift. Put the useful item where it is easy to see, and attach a short message about why you chose it. A tiny drawing, a remembered joke, or a favorite quotation you write yourself can make the wrapping feel specific to that person.",
+          "If you are posting the gift, check the packed dimensions and weight before finishing it. A bulky basket or fragile jar can change the delivery cost. Choose sturdy packaging and skip decorative items that will be discarded before the recipient reaches the gift."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Finish the decision before browsing more",
+        "paragraphs": [
+          "Use a short final check: will they use it, does it fit the full limit, and can it arrive in time? Verify unfamiliar sellers independently. The FTC recommends checking the seller’s name and website alongside terms such as “review,” “complaint,” or “scam,” and keeping purchase records.",
+          "Once the bundle answers those questions, mark it complete. Stop adding items to reach a free-shipping threshold or make the package look more expensive. Your theme and message do the work. Put any unspent allowance back into the holiday plan instead of treating it as a reason to keep shopping."
+        ],
+        "bullets": []
+      }
+    ],
+    "sources": [
+      {
+        "title": "CFPB: Your Money, Your Goals budgeting and savings tools",
+        "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/your-money-your-goals/toolkit/"
+      },
+      {
+        "title": "FTC: How to avoid an online shopping scam this holiday season",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2025/11/how-avoid-online-shopping-scam-holiday-season"
+      }
+    ],
+    "related": [
+      "thoughtful-handmade-christmas-gifts",
+      "gift-under-budget",
+      "christmas-savings-plan"
+    ],
+    "datePublished": "2026-11-07",
+    "dateModified": "2026-11-07",
+    "sourcesChecked": "2026-11-07"
+  },
+  {
+    "slug": "thoughtful-handmade-christmas-gifts",
+    "title": "Handmade Christmas gifts that respect your time and budget",
+    "category": "Gift ideas",
+    "description": "Choose personal gifts you can finish with familiar skills, existing materials, and a realistic plan for supplies and delivery.",
+    "readMinutes": 4,
+    "takeaway": "Make one prototype, count the full supply purchase, and choose a finishable project before promising several gifts.",
+    "sections": [
+      {
+        "heading": "Choose a project you can finish happily",
+        "paragraphs": [
+          "A handmade gift can feel wonderfully personal, but it does not have to become a month-long production. Begin with a skill you already enjoy: writing, drawing, taking photos, organizing family memories, or making something simple from paper. Choose a project that suits the recipient and your available time.",
+          "Before buying anything, gather the materials you already own. Check their condition and quantity. Paper, envelopes, a few photographs, or leftover fabric may be enough. Set both a cash limit and a time limit. A project that needs unfamiliar tools, several deliveries, or a new technique may belong on a future hobby list."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Make memories into something tangible",
+        "paragraphs": [
+          "Create a small family recipe collection with three or four dishes and the stories behind them. Handwrite the recipes or print them using supplies you already have. Include whose recipe it is, any helpful preparation notes, and a memory of eating it together. Check that the instructions are complete rather than relying on a family member to guess quantities.",
+          "Another option is a memory envelope: a letter, a favorite photo you have permission to share, and a list of moments you appreciated that year. For a friend, write a short walking route with meaningful stops or a guide to your favorite shared places. The value comes from your knowledge of the person."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Keep practical handmade gifts simple",
+        "paragraphs": [
+          "A paper bookmark can carry a small illustration, a reading suggestion, or a personal message. A set of recipe cards can fit an existing kitchen box. A reusable fabric wrapping square can be a good project if you already sew and have suitable material. Pick one design and make a sample before planning a batch.",
+          "A gift of help can be personal too. Offer a specific task you can safely and comfortably do, such as an afternoon of photo sorting or help setting up a room for a gathering. Give two possible dates and agree the details. An open-ended promise to “help sometime” is harder for the recipient to use."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Price the project before multiplying it",
+        "paragraphs": [
+          "Suppose you plan four card-and-bookmark sets with a combined $24 limit. A paper pack costs $8, envelopes cost $4, and printing costs $4, leaving $8 for other expenses. Those are hypothetical planning figures, not advertised prices. Count the whole pack you must buy, even when the finished gifts use only part of it.",
+          "Now add any postage, travel, adhesive, or replacement ink. Materials you already own require no new cash today, but they may not stretch across every gift. If the total exceeds your cap, reduce the batch, simplify the design, or hand-deliver where practical. Do this before buying supplies, when changing the plan is easy."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Let one prototype set the schedule",
+        "paragraphs": [
+          "Make one complete gift, including its wrapping and note. Time the whole process, not just the most enjoyable step. Allow for finding photos, checking spelling, drying, assembly, and cleanup. Multiply that realistic time by the number of gifts, then leave space for mistakes or a busy day.",
+          "Choose a finish date before your delivery date. Work in short batches if that suits the project: prepare all cards, write the messages, then package them. Keep names attached so nothing gets mixed up. If the sample is frustrating, use a simpler version rather than letting an unfinished project absorb more money and evenings."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Give with care and a clear stopping point",
+        "paragraphs": [
+          "Make the finished item easy to use. Include any relevant care instructions, make text readable, and avoid adding loose small decorations to gifts intended for young children. If a project involves food, check the recipient’s dietary needs and follow reliable food-safety instructions for preparation, storage, and transport. A non-food gift can remove those complications.",
+          "Once the gift is complete, stop improving it. You do not need to buy a second present to apologize for making something. A warm note can explain the thought behind it. Record the amount spent in your holiday plan so the remaining budget reflects what actually happened, rather than what you hoped the materials would cost."
+        ],
+        "bullets": []
+      }
+    ],
+    "sources": [
+      {
+        "title": "CFPB: Your Money, Your Goals budgeting and savings tools",
+        "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/your-money-your-goals/toolkit/"
+      },
+      {
+        "title": "FoodSafety.gov: People at risk and basic food-safety steps",
+        "url": "https://www.foodsafety.gov/people-at-risk"
+      }
+    ],
+    "related": [
+      "thoughtful-gifts-on-a-small-budget",
+      "christmas-traditions-for-less",
+      "gift-under-budget"
+    ],
+    "datePublished": "2026-11-07",
+    "dateModified": "2026-11-07",
+    "sourcesChecked": "2026-11-07"
+  },
+  {
+    "slug": "christmas-traditions-for-less",
+    "title": "Christmas traditions that bring more joy for less money",
+    "category": "Save more",
+    "description": "Plan a cozy calendar of lights walks, story nights, homemade decorations, and thoughtful gestures that fit your household.",
+    "readMinutes": 4,
+    "takeaway": "Choose a few traditions people actually enjoy, give each an all-in limit, and leave room for rest.",
+    "sections": [
+      {
+        "heading": "Build a December that feels like yours",
+        "paragraphs": [
+          "A festive season does not need an event every night. Ask everyone in your household for one thing they would like to repeat and one new thing they would enjoy trying. You may discover that a familiar film, a favorite breakfast, or putting up decorations together matters more than an expensive outing.",
+          "Choose two or three anchors for the calendar and leave the other days flexible. Give each activity a limit for both money and time. If you share plans with friends or relatives, say what you are proposing and what people might need to bring. Clear expectations make it easier for everyone to join comfortably."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Turn a lights walk into an occasion",
+        "paragraphs": [
+          "Plan a short walk to enjoy nearby decorations, with a route suited to the group’s mobility, energy, and weather. Check access and timing before setting off. Make a simple spotting list: a red door, a snowman, a star, a decorated tree, and something that makes you laugh. Younger children can draw their discoveries afterward.",
+          "Bring a drink or snack from home if that fits your plan. A walk can become costly if it ends with unplanned treats for everyone, parking, or paid entry. If walking is not practical, decorate a window together or arrange a comfortable place to enjoy your own lights and exchange favorite Christmas memories."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Host a cozy night using what you have",
+        "paragraphs": [
+          "Pick a film you already own or can access through a service you already pay for, checking availability before inviting people. Let one person choose the film and another choose a snack from the cupboard. Existing blankets, mugs, and lights can create a cozy setting without buying a themed kit.",
+          "A story night works without a screen. Take turns reading a favorite book, sharing a childhood holiday memory, or inventing a story one sentence at a time. Keep participation optional. A quiet drawing table or a shorter gathering may suit some guests better than a long evening of games and noise."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Make decorations and kindness part of the fun",
+        "paragraphs": [
+          "Cut paper stars, make a paper chain, or create name cards for a holiday meal using suitable supplies you already have. Give everyone a small area to decorate rather than aiming for a perfectly coordinated room. Keep candles, hot lights, and small craft pieces away from children and materials that could catch fire.",
+          "Add a kindness activity that requires no purchase: write an appreciative note, call someone who would enjoy hearing from you, or help a friend with an agreed task. A decoration swap with people you know can also be enjoyable. Agree what is being exchanged and check condition before anyone takes items home."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Create a choose-your-own activity jar",
+        "paragraphs": [
+          "Write six to ten ideas on slips of paper and sort them by the time and energy they need. Include a five-minute activity, an indoor option, and something that works with no extra spending. Draw one when people want a festive moment, rather than making the jar another daily obligation.",
+          "Possible choices include playing a favorite song, making a silly family photo, writing a note for next Christmas, or choosing tomorrow’s story. You can add a local library or community event after checking its actual cost, booking requirements, travel, and accessibility. “Free entry” does not always mean the entire outing will cost nothing."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Keep the tradition without keeping every expense",
+        "paragraphs": [
+          "After an activity, ask one easy question: would we like to do that again? Save the ideas people enjoyed and let the others go. A tradition can change as children grow, work schedules shift, or a household’s finances change. You do not have to recreate every detail for the experience to count.",
+          "Record what you spent, including small extras, in the same budget as your other holiday costs. The CFPB’s spending and cash-flow tools can help keep those plans visible alongside essential bills. Leave some evenings empty. Rest, familiar routines, and time together can be part of a festive December too."
+        ],
+        "bullets": []
+      }
+    ],
+    "sources": [
+      {
+        "title": "CFPB: Your Money, Your Goals budgeting and savings tools",
+        "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/your-money-your-goals/toolkit/"
+      }
+    ],
+    "related": [
+      "christmas-hosting-on-a-budget",
+      "thoughtful-handmade-christmas-gifts",
+      "seven-day-christmas-cash-plan"
+    ],
+    "datePublished": "2026-11-07",
+    "dateModified": "2026-11-07",
+    "sourcesChecked": "2026-11-07"
+  },
+  {
+    "slug": "christmas-hosting-on-a-budget",
+    "title": "Host a Christmas meal with a budget everyone can enjoy",
+    "category": "Save more",
+    "description": "Build a welcoming holiday menu around your guest list, pantry, and spending limit, with practical ways to share the work and plan leftovers.",
+    "readMinutes": 4,
+    "takeaway": "Plan the guests and menu before shopping, give every cost a place, and make leftovers part of the plan.",
+    "sections": [
+      {
+        "heading": "Decide what kind of gathering you can host",
+        "paragraphs": [
+          "Start with the guest count, the time of day, and what you can comfortably spend. A shared lunch, a soup-and-bread evening, or a dessert gathering can feel festive. Choose a format that fits your kitchen, seating, available time, and the needs of your guests rather than assuming you must serve a large formal dinner.",
+          "Ask about dietary requirements early, then plan dishes people can actually eat. Check your cupboards, fridge, and freezer before writing the menu. Note useful ingredients and their condition. One inventory can prevent buying another bag of rice, another jar of spice, or a second dessert you do not need."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Give the meal an all-in spending plan",
+        "paragraphs": [
+          "For illustration, an $80 budget for eight guests is $10 per person. You could allocate $28 to the main dish, $20 to sides, $10 to dessert, $8 to drinks, and $14 to a buffer. These are hypothetical category limits, not a claim that a particular menu is available at those prices.",
+          "The buffer must cover costs such as tax, a missing ingredient, or necessary supplies. Adjust the menu to real local prices before committing. Include any extra travel or delivery in the wider hosting plan. If you already own serving dishes and tableware, use them; a matching disposable set does not need to become another shopping category."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Build the menu around a few dependable dishes",
+        "paragraphs": [
+          "Choose one main dish, a manageable number of sides, and one dessert. Favor recipes you know and ingredients that can serve more than one purpose. For example, vegetables used in a side may also work in a soup the next day. Write down quantities based on your recipes and confirmed guests before shopping.",
+          "Compare unit prices where available, then consider whether you will use the whole package. A larger pack is not automatically the better choice if the extra food goes to waste. Frozen or canned ingredients may suit some recipes, but compare the actual options and preparation needs rather than assuming one form always costs less."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Share the work with specific invitations",
+        "paragraphs": [
+          "If guests offer to contribute, suggest one clear item or task: a ready-to-serve side, a suitable dessert, setting the table, or helping clean up. Check portion sizes and dietary needs so three people do not arrive with the same dish. Keep contributions optional, and give guests a straightforward way to decline.",
+          "Agree in advance if the gathering involves splitting costs. Do not surprise people with a payment request afterward. Someone who cannot contribute money might enjoy choosing music or bringing a familiar game. A welcoming invitation tells people what to expect and makes their company feel more important than their contribution."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Plan storage before the meal starts",
+        "paragraphs": [
+          "Clear fridge space and find suitable containers before cooking. FoodSafety.gov advises refrigerating perishable food within two hours, or within one hour when temperatures are above 90°F (32°C). Keep that timing in mind during serving, cleanup, and transport. Do not rely on food looking or smelling normal to decide it is safe.",
+          "Use cooked leftovers within four days, following safe handling and storage guidance. Label containers with what they contain and when they were prepared. If guests want to take food home, consider their travel time and ability to keep it at a safe temperature. Avoid making surplus food the main goal; buy and cook for the gathering you are actually hosting."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Make the table festive with a small finishing touch",
+        "paragraphs": [
+          "Fold the napkins you already have, write simple place cards, or use a few existing decorations where they will not obstruct serving. Choose music at a comfortable volume. These details can give the meal its Christmas character without a separate haul of decorations or a complicated centerpiece.",
+          "Afterward, note the final spending, which dishes were popular, and what was left over. Keep that short record with the menu for next time. It makes future planning easier and helps you decide which parts of hosting are worth repeating. A successful meal is one you can enjoy with your guests and afford once they have gone home."
+        ],
+        "bullets": []
+      }
+    ],
+    "sources": [
+      {
+        "title": "CFPB: Your Money, Your Goals budgeting and savings tools",
+        "url": "https://www.consumerfinance.gov/consumer-tools/educator-tool/your-money-your-goals/toolkit/"
+      },
+      {
+        "title": "FoodSafety.gov: Safe handling, refrigeration, and cooked leftovers",
+        "url": "https://www.foodsafety.gov/people-at-risk"
+      }
+    ],
+    "related": [
+      "christmas-traditions-for-less",
+      "christmas-savings-plan",
+      "thoughtful-handmade-christmas-gifts"
+    ],
+    "datePublished": "2026-11-07",
+    "dateModified": "2026-11-07",
+    "sourcesChecked": "2026-11-07"
+  },
+  {
+    "slug": "gift-wrapping-side-hustle",
+    "title": "Test a Christmas gift-wrapping service without overspending",
+    "category": "Earn more",
+    "description": "Try a small wrapping service with clear boundaries, honest pricing, and a realistic view of your time and costs.",
+    "readMinutes": 4,
+    "takeaway": "Start with a few standard boxes, price all of your time and materials, and expand only if the work is worthwhile.",
+    "sections": [
+      {
+        "heading": "Start with a small service you can deliver well",
+        "paragraphs": [
+          "Gift wrapping may suit someone who already enjoys neat, careful work and has space to keep orders organized. It is a service to test, not a guaranteed source of Christmas money. Begin with a few standard boxed gifts and supplies you already own, rather than buying rolls, ribbons, and equipment for customers you have not found.",
+          "Decide what you will accept. You might offer paper wrapping and a gift tag for ordinary boxes while declining very large, fragile, unusually shaped, or high-value items. Set a maximum number of gifts per order and a realistic turnaround. Clear boundaries make the first few orders easier to quote and complete."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Time a complete sample before setting a price",
+        "paragraphs": [
+          "Wrap several sample boxes of different sizes. Measure the paper and tape used, and include time for choosing materials, writing tags, tidying the workspace, and correcting mistakes. Take your own clear photos of the finished examples so potential customers can see the standard you can actually provide.",
+          "Next, account for the less visible work: messages, collection arrangements, travel, and payment administration. A wrapping task that takes ten minutes may require considerably more total time. Consider offering a customer-supplied-paper option, but explain that unsuitable or insufficient materials can affect the quote or completion time."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Check the money with an honest example",
+        "paragraphs": [
+          "Imagine an order of eight gifts brings in $32. Supplies cost $6, payment fees cost $1, and travel costs $3. That leaves $22 before tax. If the entire order takes two hours including messages and travel, the result is $11 per hour before tax. These numbers illustrate the calculation; they are not suggested rates or promised earnings.",
+          "Replace every figure with your own costs and a price customers actually agree to pay. If the result is too low, change the scope, reduce unnecessary travel, or decide the service is not worth offering. Do not count a quote as income. Only record money when it is received, and keep receipts for related expenses."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Write down the order before you begin",
+        "paragraphs": [
+          "Confirm the item count, wrapping style, materials, price, collection or delivery arrangements, payment timing, and completion date in writing. Agree what happens if the customer changes the request. Check the condition of items at handover and use numbered labels or an order sheet to keep gifts and recipient names together.",
+          "Keep different customers’ orders separate, away from food, pets, damp, and household traffic. Do not publish photos showing personal messages, addresses, or identifiable gifts without permission. If an item is beyond your experience or you cannot protect it appropriately, decline it before taking responsibility for it."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Find the first customers without buying a business kit",
+        "paragraphs": [
+          "A small test with people you already know can show whether there is demand. Share a clear description, real sample photos, and a limited number of available slots through channels where promotion is permitted. Check any relevant local requirements before operating a paid service. Avoid promises about same-day work or delivery until you know your capacity.",
+          "You do not need to pay a recruiter or purchase a costly starter kit to test demand for wrapping. The FTC warns that job scams may ask for upfront payments or use fake checks. Be cautious of someone who sends too much money and asks you to return part of it or buy supplies from a specified stranger."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Review the first orders before accepting more",
+        "paragraphs": [
+          "After each order, record revenue, supplies, fees, travel, total time, and any problems. The IRS explains that income from temporary or part-time gig work can be taxable and that some workers may need to make estimated payments. Keep records and use guidance appropriate to your situation rather than assuming a small holiday service has no tax responsibilities.",
+          "Then decide whether you would accept the same order again at the same price. A smaller service with clear deadlines can be more manageable than an overflowing calendar. Close bookings when you reach your capacity, leave time for your own celebrations, and put only the money actually available after costs into your Christmas plan."
+        ],
+        "bullets": []
+      }
+    ],
+    "sources": [
+      {
+        "title": "IRS: Manage taxes for your gig work",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/manage-taxes-for-your-gig-work"
+      },
+      {
+        "title": "FTC: Job scams",
+        "url": "https://consumer.ftc.gov/articles/job-scams"
+      }
+    ],
+    "related": [
+      "holiday-side-hustles",
+      "sell-unused-items-for-christmas",
+      "spotting-holiday-job-scams"
+    ],
+    "datePublished": "2026-11-07",
+    "dateModified": "2026-11-07",
+    "sourcesChecked": "2026-11-07"
+  },
+  {
+    "slug": "sell-unused-items-for-christmas",
+    "title": "Sell unused items to help fund Christmas: a practical first batch",
+    "category": "Earn more",
+    "description": "Choose a few things you already own, create useful listings, calculate the cash left after costs, and recognize common buyer scams.",
+    "readMinutes": 4,
+    "takeaway": "Sell a small batch of suitable items you already own, verify payment, and budget only the cash left after costs.",
+    "sections": [
+      {
+        "heading": "Choose five items you can comfortably let go",
+        "paragraphs": [
+          "Start with a small batch of possessions you own and have the right to sell. Look for things in usable condition that you no longer need: books, hobby supplies, household items, or clothing with useful life left. Check with other household members before listing shared belongings or gifts someone may still be using.",
+          "Avoid buying inventory for this exercise. The goal is to turn existing unused items into available cash, while learning whether selling suits your time and circumstances. Some things will not sell, and others may bring less than you hope. Do not commit that expected money to a Christmas purchase before it arrives."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Prepare a listing that answers real questions",
+        "paragraphs": [
+          "Clean each item appropriately and inspect it in good light. Photograph the actual item from several angles, including labels, accessories, wear, and defects. Write down its size, condition, what is included, and anything a buyer should know. Accurate details can reduce avoidable questions and disagreements.",
+          "For electronics, follow the manufacturer’s process to remove personal data and accounts before transferring the device. Confirm that it works as described. Check the selling platform’s rules for the item and avoid listing anything prohibited, unsafe, or recalled. If you cannot confidently describe an item’s condition or history, choose something simpler for the first batch."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Set a price using relevant evidence",
+        "paragraphs": [
+          "Where the platform provides them, look at completed sales for comparable items rather than relying only on asking prices. Match the condition, model, size, and included accessories as closely as possible. Check the costs and practicalities of both collection and shipping before choosing how to sell.",
+          "Set a reasonable asking price and a minimum amount you would accept after costs. If you want to allow offers, decide that boundary in advance. For a bulky item, the convenience of local collection may matter more than a higher advertised price that brings packing, delivery, and a long series of messages."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Calculate available cash separately from profit",
+        "paragraphs": [
+          "Suppose an item sells for $45, with a $5 selling fee, $8 shipping cost, and $2 of packing materials. The cash left is $30 before any tax implications. This is a hypothetical example, not a typical fee schedule. Check the actual platform and payment charges before setting your price.",
+          "That $30 is not automatically a profit: you also need to know what you originally paid for the item. Keep records of the original cost where available, sale price, fees, refunds, and postage. The IRS explains that gains on personal-item sales can be taxable, while selling a personal item for less than its cost generally creates no taxable gain; personal losses are not deductible."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Verify payment and keep the handover simple",
+        "paragraphs": [
+          "The FTC warns sellers about fake payment notices, claimed duplicate payments, overpayment checks, and requests for verification codes. Open your payment account or platform directly to verify the transaction instead of trusting an email or screenshot. Do not share verification codes or return an alleged overpayment just because a buyer asks.",
+          "Follow the marketplace’s payment, shipping, and dispute procedures, and understand which protections apply. For an in-person handover, choose an arrangement you feel comfortable with and avoid unnecessary sharing of personal information. For a shipped item, use suitable packaging and retain the records required by the platform. Keep communications with the order where possible."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Give the first batch a deadline",
+        "paragraphs": [
+          "Set a review date for your listings. If an item attracts no interest, improve unclear photos or details, reconsider the price, or decide to keep, donate, or recycle it appropriately. Count the time spent on messages and packing as part of deciding whether another batch is worthwhile.",
+          "Transfer only settled proceeds you can actually use, after costs and any amounts you need to retain for refunds or taxes, into your holiday plan. Do not spend anticipated sales twice by counting both the listing price and the later payment. A tidy record and a manageable batch can make this a useful one-off project even if you choose not to keep selling."
+        ],
+        "bullets": []
+      }
+    ],
+    "sources": [
+      {
+        "title": "FTC: Selling stuff online? Here is how to avoid a scam",
+        "url": "https://consumer.ftc.gov/consumer-alerts/2022/07/selling-stuff-online-heres-how-avoid-scam"
+      },
+      {
+        "title": "IRS: What to do with Form 1099-K",
+        "url": "https://www.irs.gov/businesses/what-to-do-with-form-1099-k"
+      }
+    ],
+    "related": [
+      "gift-wrapping-side-hustle",
+      "holiday-side-hustles",
+      "seven-day-christmas-cash-plan"
+    ],
+    "datePublished": "2026-11-07",
+    "dateModified": "2026-11-07",
+    "sourcesChecked": "2026-11-07"
   }
 ]

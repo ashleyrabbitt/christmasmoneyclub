@@ -2,6 +2,16 @@
 
 The website for **https://christmasmoneyclub.com**. It is a static website with a browser-based holiday planner. Its production HTTP server uses only Node.js built-ins; no database or package installation is required.
 
+## Christmas experience
+
+The holiday refresh includes a responsive seasonal homepage, optional decorative snow (off by default and disabled for reduced-motion preferences), a date-aware Christmas countdown, `/gifts/` with recipient and spending-cap filters, `/christmas-fun/` with twelve traditions, and `/challenge/` with a seven-step checklist and optional local saving.
+
+- `content/holiday.mjs` renders the new seasonal pages and holds the three optional creative-tool referral destinations.
+- `content/gifts.json` holds twelve editorial gift ideas. Its retail search links are currently direct, without affiliate tracking; budget values are planning caps rather than live prices.
+- `content/articles.json` holds the original and expanded editorial guides, with per-article dates and sources.
+- No email collection, advertising pixels, or new backend services are introduced. Planner/checklist saving is opt-in and local to the visitor’s browser.
+- CSS and main JavaScript URLs include content hashes so the refresh does not rely on old cached assets expiring.
+
 ## Local build and verification
 
 Use Node.js 24:

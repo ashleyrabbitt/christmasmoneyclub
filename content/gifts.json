@@ -1,0 +1,208 @@
+[
+  {
+    "id": "memory-jar",
+    "title": "A jar of favorite memories",
+    "recipients": [
+      "Partner",
+      "Parent or grandparent",
+      "Friend"
+    ],
+    "budget": 0,
+    "art": "jar",
+    "description": "Small notes with a memory, an inside joke, or one thing you appreciate. A clean jar or envelope is enough.",
+    "personal": "Add one note they can open on a hard day.",
+    "alternative": "Fold notes into an envelope you already own.",
+    "guide": "/christmas-fun/"
+  },
+  {
+    "id": "recipe-book",
+    "title": "The family recipe notebook",
+    "recipients": [
+      "Parent or grandparent",
+      "Host",
+      "Friend"
+    ],
+    "budget": 0,
+    "art": "book",
+    "description": "Collect a few loved recipes and the stories behind them. Leave space for the next family favorite.",
+    "personal": "Include the person who taught you each recipe.",
+    "alternative": "Use a spare notebook or share a digital document.",
+    "guide": "/christmas-fun/"
+  },
+  {
+    "id": "time-together",
+    "title": "An afternoon, just for them",
+    "recipients": [
+      "Partner",
+      "Parent or grandparent",
+      "Friend"
+    ],
+    "budget": 0,
+    "art": "calendar",
+    "description": "Plan a walk, a photo-sorting afternoon, or a favorite film you can already watch. Give it a real date.",
+    "personal": "Choose the activity around something they keep mentioning.",
+    "alternative": "Make a handwritten invitation instead of buying a voucher.",
+    "guide": "/christmas-fun/"
+  },
+  {
+    "id": "book-night",
+    "title": "A book and a little reading ritual",
+    "recipients": [
+      "Friend",
+      "Parent or grandparent",
+      "Partner"
+    ],
+    "budget": 15,
+    "art": "book",
+    "description": "Choose a book that matches an interest, add a bookmark, and suggest a cozy time to read. A good used copy can be lovely.",
+    "personal": "Write why the book made you think of them on a separate note.",
+    "alternative": "Pass along a book you own with a handmade bookmark.",
+    "url": "https://www.amazon.com/s?k=paperback+books+gifts",
+    "affiliate": false,
+    "linkLabel": "Browse ideas on Amazon",
+    "linkStatus": "Direct search link; affiliate tracking not activated pending domain registration verification."
+  },
+  {
+    "id": "cocoa",
+    "title": "A cozy cocoa moment",
+    "recipients": [
+      "Friend",
+      "Host",
+      "Coworker"
+    ],
+    "budget": 15,
+    "art": "mug",
+    "description": "A modest cocoa mix or tea selection can become a thoughtful small gift. Check ingredients and preferences first.",
+    "personal": "Add a short note inviting them to share a cup with you.",
+    "alternative": "Package an unopened pantry item they enjoy with supplies you have.",
+    "url": "https://www.amazon.com/s?k=hot+cocoa+tea+gift+set",
+    "affiliate": false,
+    "linkLabel": "Browse ideas on Amazon",
+    "linkStatus": "Direct search link; affiliate tracking not activated pending domain registration verification."
+  },
+  {
+    "id": "art-kit",
+    "title": "A little creativity kit",
+    "recipients": [
+      "Kids",
+      "Friend"
+    ],
+    "budget": 15,
+    "art": "pencils",
+    "description": "A small paper pad and age-appropriate coloring supplies make a simple creative gift. Choose the materials for the recipient.",
+    "personal": "Add a drawing prompt or offer to make something together.",
+    "alternative": "Gather suitable unused paper and supplies already at home.",
+    "url": "https://www.amazon.com/s?k=coloring+pencils+sketch+pad+set",
+    "affiliate": false,
+    "linkLabel": "Browse ideas on Amazon",
+    "linkStatus": "Direct search link; affiliate tracking not activated pending domain registration verification."
+  },
+  {
+    "id": "socks",
+    "title": "Something warm for slow mornings",
+    "recipients": [
+      "Partner",
+      "Friend",
+      "Parent or grandparent"
+    ],
+    "budget": 15,
+    "art": "stocking",
+    "description": "One useful pair of cozy socks can be enough. Check the size, fabric, and care instructions before buying.",
+    "personal": "Pair it with a written plan for a quiet breakfast together.",
+    "alternative": "Offer a breakfast morning using ingredients you already have.",
+    "url": "https://www.amazon.com/s?k=cozy+socks+gifts",
+    "affiliate": false,
+    "linkLabel": "Browse ideas on Amazon",
+    "linkStatus": "Direct search link; affiliate tracking not activated pending domain registration verification."
+  },
+  {
+    "id": "puzzle",
+    "title": "A puzzle for an unhurried afternoon",
+    "recipients": [
+      "Family",
+      "Parent or grandparent",
+      "Friend"
+    ],
+    "budget": 25,
+    "art": "puzzle",
+    "description": "Choose a subject and piece count they will enjoy, with enough table space to make it practical.",
+    "personal": "Pick a place, animal, or scene with a shared meaning.",
+    "alternative": "Swap a complete puzzle you already own and solve it together.",
+    "url": "https://www.amazon.com/s?k=jigsaw+puzzle",
+    "affiliate": false,
+    "linkLabel": "Browse ideas on Amazon",
+    "linkStatus": "Direct search link; affiliate tracking not activated pending domain registration verification."
+  },
+  {
+    "id": "game-night",
+    "title": "A family game-night starter",
+    "recipients": [
+      "Family",
+      "Kids",
+      "Host"
+    ],
+    "budget": 25,
+    "art": "game",
+    "description": "A simple card or board game can become an evening together. Check age guidance, player count, and play time.",
+    "personal": "Include a homemade invitation to the first game night.",
+    "alternative": "Write out favorite games using a deck of cards you own.",
+    "url": "https://www.amazon.com/s?k=family+card+game",
+    "affiliate": false,
+    "linkLabel": "Browse ideas on Amazon",
+    "linkStatus": "Direct search link; affiliate tracking not activated pending domain registration verification."
+  },
+  {
+    "id": "journal",
+    "title": "A notebook with a meaningful first page",
+    "recipients": [
+      "Friend",
+      "Coworker",
+      "Partner"
+    ],
+    "budget": 15,
+    "art": "book",
+    "description": "A useful notebook, chosen in a style they like, with no elaborate bundle required.",
+    "personal": "Leave a favorite memory, encouraging note, or a few thoughtful prompts.",
+    "alternative": "Decorate an unused notebook or make a small paper booklet.",
+    "url": "https://www.amazon.com/s?k=blank+notebook+journal",
+    "affiliate": false,
+    "linkLabel": "Browse ideas on Amazon",
+    "linkStatus": "Direct search link; affiliate tracking not activated pending domain registration verification."
+  },
+  {
+    "id": "kitchen",
+    "title": "One useful kitchen helper",
+    "recipients": [
+      "Host",
+      "Parent or grandparent",
+      "Friend"
+    ],
+    "budget": 25,
+    "art": "mug",
+    "description": "Choose one practical kitchen item they have actually mentioned needing, such as a spatula set or tea towel.",
+    "personal": "Include a recipe you want to cook with them.",
+    "alternative": "Give a handwritten recipe and a specific offer to help prepare it.",
+    "url": "https://www.amazon.com/s?k=kitchen+spatula+tea+towel+gift",
+    "affiliate": false,
+    "linkLabel": "Browse ideas on Amazon",
+    "linkStatus": "Direct search link; affiliate tracking not activated pending domain registration verification."
+  },
+  {
+    "id": "craft-together",
+    "title": "A make-something-together afternoon",
+    "recipients": [
+      "Family",
+      "Kids",
+      "Friend"
+    ],
+    "budget": 50,
+    "art": "pencils",
+    "description": "If your budget allows, choose one age-appropriate craft kit for a shared afternoon. Check what supplies are included.",
+    "personal": "Wrap a date for the activity along with the kit.",
+    "alternative": "Plan a paper craft session using clean scraps and supplies you have.",
+    "url": "https://www.amazon.com/s?k=family+craft+kit",
+    "affiliate": false,
+    "linkLabel": "Browse ideas on Amazon",
+    "linkStatus": "Direct search link; affiliate tracking not activated pending domain registration verification."
+  }
+]
