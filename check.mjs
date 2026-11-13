@@ -42,11 +42,11 @@ for(const tool of earningTools){
 assert.ok(earnHtml.includes('Affiliate disclosure:'));
 assert.ok(earnHtml.indexOf('Affiliate disclosure:')<earnHtml.indexOf('https://get.descript.com/'),'Commission disclosure must precede the Descript link');
 assert.match(disclosureHtml,/Last updated November 7, 2026/);
-assert.match(disclosureHtml,/direct retailer search links, without our affiliate tracking/);
+assert.match(disclosureHtml,/lead to retailers or manufacturers without our affiliate tracking/);
 const giftHtml=fs.readFileSync(path.join(root,'gifts/index.html'),'utf8');
 assert.ok(!/rel="[^"]*sponsored/.test(giftHtml),'Unverified retailer tracking must not be activated');
 assert.ok(!giftHtml.includes('tag=thefamilygr0a-20'),'Amazon domain listing remains unverified');
-assert.equal((giftHtml.match(/data-gift /g)||[]).length,12,'Gift finder should contain twelve ideas');
+assert.equal((giftHtml.match(/data-gift /g)||[]).length,20,'Gift finder should contain twenty ideas');
 const challengeHtml=fs.readFileSync(path.join(root,'challenge/index.html'),'utf8');
 assert.equal((challengeHtml.match(/data-challenge-step=/g)||[]).length,challengeSteps.length);
 assert.equal(challengeSteps.length,7);
@@ -73,3 +73,4 @@ for(const file of htmls){
 }
 assert.deepEqual(failures,[]);
 console.log(JSON.stringify({status:'passed',calculatorCases:9,htmlPages:htmls.length,internalLinksAndAssets:localLinks,articles:articles.length,trackedAffiliateLinks:sponsoredLinks.length,directProviderLinks:directProviders.length,disclosureChecks:'passed'}));
+

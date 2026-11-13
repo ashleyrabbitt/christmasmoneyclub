@@ -1,5 +1,165 @@
 [
   {
+    "id": "clever-anker-nano-30w",
+    "title": "A spare charger for their everyday bag",
+    "recipients": [
+      "Friend",
+      "Partner"
+    ],
+    "budget": 25,
+    "description": "A device-compatible charger is useful when it solves the daily hunt for the one charger at home.",
+    "personal": "Wrap it with a labeled cable they already own.",
+    "alternative": "Move an existing spare charger into a travel pouch.",
+    "art": "gift",
+    "image": "https://thefamilygroupchat.xyz/images/holiday-gifts/anker-nano-30w.png",
+    "imageAlt": "Anker Nano Charger — 30W, A2147 — manufacturer product photo",
+    "check": "Check A2147, a US wall plug and the device’s power requirements. This is not a battery pack, and some laptops need more than 30W.",
+    "url": "https://www.anker.com/products/a2147",
+    "linkLabel": "Check the exact model",
+    "affiliate": false,
+    "model": "Anker Nano Charger — 30W, A2147"
+  },
+  {
+    "id": "clever-cordbrick",
+    "title": "A place for the cable that keeps escaping",
+    "recipients": [
+      "Friend",
+      "Parent or grandparent"
+    ],
+    "budget": 25,
+    "description": "For someone whose charging lead falls behind the desk, a weighted holder is a practical little gift with an obvious job.",
+    "personal": "Add a note promising a regular catch-up call.",
+    "alternative": "Tidy the charging corner using organizers already at home.",
+    "art": "gift",
+    "image": "https://cordbrick.com/cdn/shop/files/SHOPIFYCBBLACK_6102ed55-8911-4bdf-90c4-483244bbc4e2.jpg?v=1773332915&width=800",
+    "imageAlt": "CordBrick Weighted Cord Holder — product photo",
+    "check": "CordBrick is an organizer, not a charger or power bank. Check cable thickness and the number of holders in the pack.",
+    "url": "https://cordbrick.com/products/cordbrick",
+    "linkLabel": "Check the exact model",
+    "affiliate": false,
+    "model": "CordBrick Weighted Cord Holder"
+  },
+  {
+    "id": "clever-oxo-angled-cup",
+    "title": "A measuring cup with a favorite family recipe",
+    "recipients": [
+      "Friend",
+      "Parent or grandparent"
+    ],
+    "budget": 25,
+    "description": "The OXO one-cup measure can be read from above. Its appeal is strongest for someone who regularly cooks from recipes.",
+    "personal": "Include a handwritten recipe with a memory of cooking together.",
+    "alternative": "Give the recipe in a handwritten booklet without buying a tool.",
+    "art": "gift",
+    "image": "https://thefamilygroupchat.xyz/images/holiday-gifts/oxo-angled-cup.jpg",
+    "imageAlt": "OXO 1-Cup Angled Measuring Cup — manufacturer product photo",
+    "check": "Match the one-cup plastic version. Larger sizes and glass measures have different capacities and care requirements.",
+    "url": "https://www.oxo.com/1-cup-angled-measuring-cup.html",
+    "linkLabel": "Check the exact model",
+    "affiliate": false,
+    "model": "OXO 1-Cup Angled Measuring Cup"
+  },
+  {
+    "id": "clever-polygons",
+    "title": "Folding measuring spoons for the curious cook",
+    "recipients": [
+      "Friend",
+      "Partner"
+    ],
+    "budget": 50,
+    "description": "This compact two-spoon design folds into different measures. Choose it for a cook who enjoys a clever object and has room for one useful upgrade.",
+    "personal": "Offer to bake the first batch together.",
+    "alternative": "Host a baking afternoon with the utensils already in the kitchen.",
+    "art": "gift",
+    "image": "https://www.getpolygons.com/cdn/shop/products/RedSpoon.png?v=1666556879&width=800",
+    "imageAlt": "Polygons Folding Measuring Spoons — product photo",
+    "check": "Choose the two-spoon set and check the measurement markings. Follow the maker’s top-rack dishwasher guidance.",
+    "url": "https://www.getpolygons.com/products/spoon",
+    "linkLabel": "Check the exact model",
+    "affiliate": false,
+    "model": "Polygons Folding Measuring Spoons"
+  },
+  {
+    "id": "clever-souper-cubes-one-cup",
+    "title": "A freezer tray, with a helping hand",
+    "recipients": [
+      "Parent or grandparent",
+      "Friend"
+    ],
+    "budget": 50,
+    "description": "Individual soup portions make sense for someone who batch-cooks already. The thoughtful part is offering time to cook alongside them.",
+    "personal": "Pair it with a recipe suited to their preferences.",
+    "alternative": "Cook together and portion the meal into freezer-safe containers they own.",
+    "art": "gift",
+    "image": "https://thefamilygroupchat.xyz/images/holiday-gifts/souper-cubes-one-cup.jpg",
+    "imageAlt": "Souper Cubes 1-Cup Freezer Tray — manufacturer product photo",
+    "check": "The 1-cup tray is about 11.75 × 5.75 × 2.5 inches. Check the number of trays and included lids; the lid must not go in the oven.",
+    "url": "https://www.soupercubes.com/products/one-cup-food-freezer-tray",
+    "linkLabel": "Check the exact model",
+    "affiliate": false,
+    "model": "Souper Cubes 1-Cup Freezer Tray"
+  },
+  {
+    "id": "clever-lego-chrysanthemum",
+    "title": "A small adult building project",
+    "recipients": [
+      "Partner",
+      "Friend"
+    ],
+    "budget": 50,
+    "description": "An adult LEGO flower set turns an afternoon into something to display. Choose it for a person who likes building, not simply because they like flowers.",
+    "personal": "Plan an afternoon to build together.",
+    "alternative": "Make a paper flower or take a walk to enjoy a public garden.",
+    "art": "gift",
+    "image": "https://thefamilygroupchat.xyz/images/holiday-gifts/lego-chrysanthemum.png",
+    "imageAlt": "LEGO Botanicals Chrysanthemum — 10368 — manufacturer product photo",
+    "check": "Look for a complete, new 10368 set if that is what you intend to give. It is labeled 18+ and contains small parts.",
+    "url": "https://www.lego.com/en-us/product/chrysanthemum-10368",
+    "linkLabel": "Check the exact model",
+    "affiliate": false,
+    "model": "LEGO Botanicals Chrysanthemum — 10368"
+  },
+  {
+    "id": "clever-dash-rapid-egg-cooker",
+    "title": "A breakfast helper for an existing routine",
+    "recipients": [
+      "Partner",
+      "Parent or grandparent"
+    ],
+    "budget": 50,
+    "description": "A small egg cooker can be useful in a household that eats eggs often. Check counter space and interest before giving a practical appliance.",
+    "personal": "Write a breakfast-for-two invitation on the gift tag.",
+    "alternative": "Make breakfast with the cookware already available.",
+    "art": "gift",
+    "image": "https://thefamilygroupchat.xyz/images/holiday-gifts/dash-rapid-egg-cooker.jpg",
+    "imageAlt": "Dash Rapid Egg Cooker — DEC007 — manufacturer product photo",
+    "check": "Compare DEC007 listings with the same tray and accessories. A cheaper six-egg version is a different model, and a bundle may include extras you do not need.",
+    "url": "https://bydash.com/products/rapid-egg-cooker",
+    "linkLabel": "Check the exact model",
+    "affiliate": false,
+    "model": "Dash Rapid Egg Cooker — DEC007"
+  },
+  {
+    "id": "clever-fellow-carter-move",
+    "title": "A travel mug that fits their morning",
+    "recipients": [
+      "Friend",
+      "Partner"
+    ],
+    "budget": 50,
+    "description": "Choose the 12-ounce Move mug for someone who enjoys a modest coffee serving on the way out. The right capacity matters more than a flashy gift bundle.",
+    "personal": "Pair it with a coffee walk on the calendar.",
+    "alternative": "Bring homemade coffee on a walk using cups you already own.",
+    "art": "gift",
+    "image": "https://thefamilygroupchat.xyz/images/holiday-gifts/fellow-carter-move.png",
+    "imageAlt": "Fellow Carter Move Mug — 12 oz — manufacturer product photo",
+    "check": "Confirm 12 oz and the Move lid. Fellow says this model is not suitable for brewing directly with an AeroPress or Prismo.",
+    "url": "https://fellowproducts.com/products/carter-move-mug",
+    "linkLabel": "Check the exact model",
+    "affiliate": false,
+    "model": "Fellow Carter Move Mug — 12 oz"
+  },
+  {
     "id": "memory-jar",
     "title": "A jar of favorite memories",
     "recipients": [

@@ -447,3 +447,7 @@ body { background-color: var(--cream); }
   .challenge-step { break-inside: avoid; }
   .challenge-step > .quiet-link { display: none; }
 }
+
+
+/* Numbered gift edit; scoped to the existing gift finder. */
+.gift-finder .gift-art{position:relative}.gift-finder .gift-art img{display:block;width:100%;height:260px;object-fit:contain;background:#fff;padding:24px;box-sizing:border-box}.gift-finder .gift-number{position:absolute;top:12px;left:12px;border-radius:50%;width:42px;height:42px;display:grid;place-items:center;background:#173c32;color:#fff;font-weight:800}.gift-finder .gift-model{font-weight:700;color:#37564b}.gift-finder .gift-check{margin:16px 0}.gift-finder .gift-check summary{cursor:pointer;font-weight:700}.gift-finder .gift-check p{font-size:.94rem;line-height:1.6}
